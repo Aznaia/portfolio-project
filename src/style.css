@@ -1,0 +1,23 @@
+:root {
+  --primary-color: rgb(18, 50, 131);
+  --heading-font: "Roboto Slab", serif;
+  --primary-font: "Lato", sans-serif;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.hero {
+  background-color: rgba(100, 148, 237, 0.192);
+  font-family: var(--primary-font);
+  padding: 100px 20px;
+  text-align: center;
+  color: var(--primary-color);
+}
