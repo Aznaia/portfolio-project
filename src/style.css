@@ -1,7 +1,11 @@
 :root {
   --primary-color: rgb(18, 50, 131);
+  --secondary-color: #c06c84;
+  --tertiary-color: #6c5b7b;
+  --accent-color: #f67280;
   --heading-font: "Roboto Slab", serif;
   --primary-font: "Lato", sans-serif;
+  --background-color: #e2eafc;
 }
 
 h1 {
@@ -15,9 +19,30 @@ h2 {
 }
 
 .hero {
-  background-color: rgba(100, 148, 237, 0.192);
+  background-color: var(--background-color);
   font-family: var(--primary-font);
   padding: 100px 20px;
   text-align: center;
   color: var(--primary-color);
+  border: thick double var(--primary-color);
+  border-width: 10px;
+}
+
+.hero h2 {
+  line-height: 2;
+}
+
+.primary-button {
+  background: var(--secondary-color);
+  font-family: var(--primary-font);
+  border-radius: 50px;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding: 15px 40px;
+  border: solid var(--primary-color);
+  box-shadow: 2px 3px 3px rgb(0, 0, 0, 0.2);
+}
+
+.primary-button:hover {
+  background: #f67280;
 }
