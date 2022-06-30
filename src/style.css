@@ -69,7 +69,6 @@ p {
   padding: 15px 30px;
   border: solid var(--primary-color);
   box-shadow: 2px 3px 3px rgb(0, 0, 0, 0.5);
-  justify-content: center;
   margin: 20px 5px 0, 0;
 }
 .secondary-button:hover {
