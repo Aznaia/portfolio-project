@@ -9,6 +9,7 @@
 
 body {
   margin-bottom: 20px;
+  max-width: 1000px;
 }
 
 h1 {
@@ -109,12 +110,12 @@ footer .social-links a:hover {
 }
 .nav-container {
   box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.2);
-  margin: 10px 30px 0 30px;
+  margin: 10px 20px 0 20px;
   padding: 0;
 }
 
 .nav-content {
-  padding: 10px 20px;
+  padding: 10px 10px 0;
 }
 
 .hero {
@@ -200,11 +201,19 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .nav a,
+  P {
+    font-size: 15px;
+  }
+
+  .nav-content {
+    justify-content: center;
   }
 
   .hero h2 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.5;
   }
 
@@ -215,6 +224,7 @@ footer .social-links a:hover {
   .project-description {
     text-align: center;
     margin: 20px 5px;
+    padding: 10px;
   }
 
   .content-container {
